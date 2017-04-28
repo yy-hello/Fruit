@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"开始开发1.0版本");
+    NSLog(@"1.0版本开发完成");
 }
 
 
