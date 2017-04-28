@@ -13,6 +13,7 @@
 		E3ACCA4C1EB33B6200184649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3ACCA4A1EB33B6200184649 /* Main.storyboard */; };
 		E3ACCA4E1EB33B6200184649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3ACCA4D1EB33B6200184649 /* Assets.xcassets */; };
 		E3ACCA511EB33B6200184649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3ACCA4F1EB33B6200184649 /* LaunchScreen.storyboard */; };
+		E3ACCA5A1EB33C2B00184649 /* WYYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACCA591EB33C2B00184649 /* WYYPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E3ACCA4D1EB33B6200184649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3ACCA501EB33B6200184649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3ACCA521EB33B6200184649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3ACCA581EB33C2B00184649 /* WYYPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYYPerson.h; sourceTree = "<group>"; };
+		E3ACCA591EB33C2B00184649 /* WYYPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYYPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		E3ACCA401EB33B6200184649 /* Fruit */ = {
 			isa = PBXGroup;
 			children = (
+				E3ACCA581EB33C2B00184649 /* WYYPerson.h */,
+				E3ACCA591EB33C2B00184649 /* WYYPerson.m */,
 				E3ACCA441EB33B6200184649 /* AppDelegate.h */,
 				E3ACCA451EB33B6200184649 /* AppDelegate.m */,
 				E3ACCA471EB33B6200184649 /* ViewController.h */,
@@ -105,6 +110,7 @@
 		E3ACCA361EB33B6200184649 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WYY;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "吴阳阳";
 				TargetAttributes = {
@@ -153,6 +159,7 @@
 			files = (
 				E3ACCA491EB33B6200184649 /* ViewController.m in Sources */,
 				E3ACCA461EB33B6200184649 /* AppDelegate.m in Sources */,
+				E3ACCA5A1EB33C2B00184649 /* WYYPerson.m in Sources */,
 				E3ACCA431EB33B6200184649 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
